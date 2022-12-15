@@ -1,0 +1,72 @@
+html{
+  background-color:#9a0202;
+}
+body{
+  margin:0px;
+  padding:0px;
+}
+
+
+.a-nav{
+  position:-webkit-fixed;
+  position:fixed;
+  top:0px;
+  z-index:1;
+  height:50px;
+  background-color:rgba(0, 0, 0, 0.532);
+  width:100%;
+}
+
+#flter{
+  color:rgb(26, 222, 0);
+  font-size: 3vw;
+  margin-right:48vw;
+  margin-left:10vw;
+}
+
+.banner{     
+  text-align:center; 
+  border-style:inset;
+  border-color:#9a0202;
+  height:44vw;
+  background-size:auto;
+  height:fit-content;
+  padding-bottom:0px;
+  
+}
+.welcome-div{
+  padding-bottom:30px;
+}
+
+.a{
+  text-decoration:none;
+  color:white;
+  margin:10px;
+  font-size:2vw;
+ }
+
+#welcome{
+  color:#84ff00;
+  text-shadow:2px 2px 5px rgb(255, 0, 0);
+  font-size:100px;
+  position:relative;
+  margin-top:150px
+}
+
+#about-myself1{
+  color:lightseagreen;
+  text-align:center;
+  text-shadow:2px 2px 5px black;
+}
+#pepe-image{
+padding-top:17vh
+}
+
+.about-myself{
+height:480px;
+padding: 50px;
+top:10px;
+z-index:-1;
+}
+
+
