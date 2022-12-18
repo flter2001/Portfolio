@@ -1,0 +1,46 @@
+html{
+    background-color:#9a0202;
+  }
+  body{
+    margin:0px;
+    padding:0px;
+  }
+
+.a-nav{
+    position:-webkit-fixed;
+    position:fixed;
+    top:0px;
+    z-index:1;
+    height:50px;
+    background-color:rgba(0, 0, 0, 0.532);
+    width:100%;
+  }
+  #flter{
+    color:rgb(26, 222, 0);
+    font-size: 3vw;
+    margin-right:48vw;
+    margin-left:10vw;
+  }
+  .a{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+    font-size:2vw;
+   }
+
+   #email{
+    display:flex;
+    flex-direction:column;
+    margin-top:50px;
+   }
+   .email-content{
+    align-self:center;
+    font-size:50px;
+    text-shadow:2px 2px 5px black;
+   }
+   h2{
+    color:lightseagreen;
+   }
+   p{
+    color:#F9F6EE;
+   }
