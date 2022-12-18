@@ -50,7 +50,8 @@ body{
   text-shadow:2px 2px 5px rgb(255, 0, 0);
   font-size:100px;
   position:relative;
-  margin-top:150px
+  margin-top:150px;
+  margin-bottom:80px;
 }
 
 #about-myself1{
@@ -58,15 +59,32 @@ body{
   text-align:center;
   text-shadow:2px 2px 5px black;
 }
-#pepe-image{
-padding-top:17vh
+#about-myself-content{
+  display:flex;
+  justify-content: space-around;
+}
+#pepe{
+margin-top: 10vh;
+border-radius:60%;
+border:#000000 2px solid;
+}
+#about-myself-p{
+padding-top:50px;
+text-align:right;
+font-size:20px;
+text-shadow:2px 2px 5px black;
 }
 
-.about-myself{
+#about-myself{
 height:480px;
-padding: 50px;
-top:10px;
-z-index:-1;
+margin-top:60px;
+
 }
 
+#projects{
+  height: 500px;
+}
 
+#projects-h{
+  
+}
